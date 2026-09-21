@@ -1,4 +1,4 @@
-import { ArrowDownRight, ArrowUpRight, BriefcaseBusiness, Download, GraduationCap, Github, Linkedin, Mail, University } from "lucide-react";
+import { ArrowDownRight, ArrowUpRight, BriefcaseBusiness, Download, GraduationCap, Mail, University } from "lucide-react";
 
 const projects = [
   {
@@ -94,7 +94,13 @@ export default function Home() {
           <h2>Analytical work, clearly communicated.</h2>
           <p>I am an MBA graduate from FMS Delhi with a background in computer science, financial technology, and applied problem-solving.</p>
           <p>This portfolio brings together my work in risk management, quantitative finance, and financial systems.</p>
-          <div className="socials" id="contact"><a href="#contact"><Linkedin size={17} /> LinkedIn</a><a href="#contact"><Github size={17} /> GitHub</a><a href="mailto:your-email@example.com"><Mail size={17} /> Email</a></div>
+          <div className="socials" id="contact">
+  <a href="https://www.linkedin.com/in/medha-bhattacharya-5b29291b3/">LinkedIn</a>
+  <a href="https://github.com/medha-b">GitHub</a>
+  <a href="medha.b26@fms.edu">
+    <Mail size={17} /> Email
+  </a>
+</div>
         </aside>
       </section>
 
